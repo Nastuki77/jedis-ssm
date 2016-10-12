@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+    <!--
+        <mvc:resources location="/resources/" mapping="/resources/**" />
+        <mvc:annotation-driven>
+            <mvc:message-converters register-defaults="true">
+                <bean class="org.springframework.http.converter.StringHttpMessageConverter">
+                    <property name="supportedMediaTypes" value="text/plain;charset=UTF-8"/>
+                </bean>
+            </mvc:message-converters>
+        </mvc:annotation-driven>-->
+    <!--
+        使用servlet规范中的过滤器Filter实现的功能就用Filter实现，
+        因为HandlerInteceptor只有在Spring Web MVC环境下才能使用，
+        因此Filter是最通用的、最先应该使用的。如登录这种拦截器最好使用Filter来实现。
+    -->
+
+    <!--
+         <mvc:interceptors>
+            <mvc:interceptor>
+                &lt;!&ndash; 需拦截的地址 &ndash;&gt;
+                <mvc:mapping path="/web/controller/**"/>
+                &lt;!&ndash; 需排除拦截的地址 &ndash;&gt;
+                <mvc:exclude-mapping path="/resources/**"/>
+
+                <bean class="org.jedis.web.interceptor.loginInterceptor*"></bean>
+            </mvc:interceptor>
+        </mvc:interceptors>
+        -->
+
+    <mvc:annotation-driven/>
+
+    <mvc:default-servlet-handler/>
+
+    <context:component-scan base-package="org.jedis.web.controller">
+        <context:include-filter type="annotation"
+                                expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!--3:配置jsp 显示ViewResolver -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+
+</beans>
