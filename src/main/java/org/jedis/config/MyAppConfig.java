@@ -1,6 +1,6 @@
 package org.jedis.config;
 
-import org.jedis.utils.ClientContants;
+import org.jedis.utils.ClientConstants;
 import org.springframework.context.annotation.Configuration;
 
 
@@ -8,7 +8,7 @@ import java.util.Map;
 
 @Configuration
 public class MyAppConfig {
-	public static Map<String, String> APP_CONFIGS = ClientContants.getAppConfigs();
+	public static Map<String, String> APP_CONFIGS = ClientConstants.getAppConfigs();
 
 /*	@Bean
 	public DataSource dataSource() {

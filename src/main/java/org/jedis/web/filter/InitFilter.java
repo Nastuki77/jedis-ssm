@@ -2,16 +2,20 @@ package org.jedis.web.filter;
 
 
 import org.jedis.config.MyAppConfig;
-import org.jedis.entity.Allows;
+import org.jedis.dao.RedisDao;
 import org.jedis.entity.Permit;
+import org.jedis.service.impl.IUserService;
 import org.jedis.utils.MyUtils;
 import org.jedis.web.annocation.Module;
 import org.jedis.web.annocation.Permissions;
-import org.jedis.web.controller.initUtils;
-import org.springframework.stereotype.Controller;
+import org.jedis.web.controller.base.BaseController;
+import org.springframework.beans.factory.annotation.Autowired;
+import redis.clients.jedis.Jedis;
 
 import javax.servlet.*;
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,6 +28,8 @@ import java.util.List;
  */
 public class InitFilter implements Filter {
 
+    @Autowired
+    private IUserService userService;
 
     @Override
     public void init(FilterConfig fc) throws ServletException {
@@ -32,8 +38,7 @@ public class InitFilter implements Filter {
         fc.getServletContext().setAttribute("cssUrl", MyAppConfig.APP_CONFIGS.get("cssUrl"));
         fc.getServletContext().setAttribute("jsUrl", MyAppConfig.APP_CONFIGS.get("jsUrl"));
         fc.getServletContext().setAttribute("imageUrl", MyAppConfig.APP_CONFIGS.get("imageUrl"));
-        //initUtils initUtils = new initUtils();
-        //initUtils.inits();
+
 
     }
 

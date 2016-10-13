@@ -18,5 +18,5 @@ public interface IuseDao {
 
     int addUser(@Param("username")String username,@Param("password")String password,@Param("email")String email);
 
-    User getUser(@Param("username")String username,@Param("password")String password);
+    List<User> getUser(@Param("username")String username,@Param("password")String password);
 }

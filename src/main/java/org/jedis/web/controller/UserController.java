@@ -31,8 +31,8 @@ public class UserController extends BaseController {
         return "user/userPage";
     }
     @Permissions(name = "主页", value = "home")
-    @RequestMapping("/loginConfirm")
-    public String loginConfirm(Model model){
+      @RequestMapping("/loginConfirm")
+      public String loginConfirm(Model model){
         return "common/home";
     }
 

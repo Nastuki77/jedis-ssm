@@ -13,12 +13,16 @@
 
     <context:component-scan base-package="org.jedis.service"/>
 
+
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
         <property name="dataSource" ref="datasource"/>
     </bean>
 
 
     <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <bean id="LifeCycleBean" class="org.jedis.web.bean.LifeCycleBean"
+          init-method="init" />
 
 
 </beans>

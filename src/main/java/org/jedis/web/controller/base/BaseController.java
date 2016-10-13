@@ -1,6 +1,6 @@
 package org.jedis.web.controller.base;
 
-import org.jedis.service.impl.IuserService;
+import org.jedis.service.impl.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -9,6 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class BaseController {
 
     @Autowired
-    protected IuserService userService;
+    protected IUserService userService;
 
 }

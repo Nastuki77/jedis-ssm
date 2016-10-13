@@ -5,6 +5,7 @@ import org.jedis.entity.Permit;
 import org.jedis.entity.User;
 import org.jedis.utils.MyUtils;
 import org.jedis.web.annocation.Module;
+import org.jedis.web.annocation.Permissions;
 import org.jedis.web.controller.base.BaseController;
 import org.jedis.web.vo.permitVo.permitVo;
 import org.jedis.web.vo.permitVo.valueVo;
@@ -15,6 +16,7 @@ import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,12 +49,43 @@ public class LoginController extends BaseController {
         int value = 0;
         if (password.equals(passwordConfirm)) {
             value = this.userService.getUseDao().addUser(username.trim(),
-                    DigestUtils.md5DigestAsHex(password.trim().getBytes()),email.trim());
+                    DigestUtils.md5DigestAsHex(password.trim().getBytes()), email.trim());
         }
         if (value == 0) {
             return "login/register";
         } else {
             return "login/login";
+        }
+
+    }
+
+    public void init() {
+        System.out.println("权限配置初始化开始...");
+
+        List<Class> clazzs = MyUtils.getClasssFromPackage("org.jedis.web.controller");
+        System.out.println(clazzs.size());
+        List<Permit> permits = new ArrayList<Permit>();
+
+        for (Class c : clazzs) {
+            Class<?> clazz = null;
+            try {
+                clazz = Class.forName(c.getName());
+            } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+            }
+            Method[] methods = clazz.getMethods();
+            Module module = clazz.getDeclaredAnnotation(Module.class);
+            if (null != module) {
+                for (Method method : methods) {
+                    if (method.isAnnotationPresent(Permissions.class)) {
+                        Permissions permissions = method.getDeclaredAnnotation(Permissions.class);
+                        System.out.print(permissions.name() + "  " + permissions.value() +
+                                "  " + module.name() + "  " + module.value());
+                        //this.userService.getPermitDao().savePermit(module.name(),module.value(),permissions.name(),permissions.value());
+                        this.userService.savePermit(module.name(), module.value(), permissions.name(), permissions.value());
+                    }
+                }
+            }
         }
 
     }
@@ -63,14 +96,14 @@ public class LoginController extends BaseController {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         int value = 0;
-        User user = this.userService.getUseDao().getUser(username, DigestUtils.md5DigestAsHex(password.trim().getBytes()));
+        List<User> user = this.userService.getUseDao().getUser(username, DigestUtils.md5DigestAsHex((password.trim()).getBytes()));
 
-        if (user != null) {
+        if (user == null) {
             return "login/login";
         } else {
-            String[] strings = user.getPermissions().split(",");
+            String[] strings = user.get(0).getPermissions().split(",");
             List<Long> ids = new ArrayList<Long>();
-            List<Permit> permits = null;
+            List<Permit> permits = new ArrayList<Permit>();
             List<Allows> list = new ArrayList<Allows>();
             for (String s : strings) {
                 if (MyUtils.isNotEmpty(s)) {
@@ -89,10 +122,10 @@ public class LoginController extends BaseController {
                 list.add(allows);
             }
             LoginInfo loginInfo = new LoginInfo();
-            loginInfo.setId(user.getId());
+            loginInfo.setId(user.get(0).getId());
             loginInfo.setAllows(list);
-            loginInfo.setName(user.getUsername());
-            loginInfo.setEmail(user.getEmail());
+            loginInfo.setName(user.get(0).getUsername());
+            loginInfo.setEmail(user.get(0).getEmail());
             request.getSession().setAttribute("LoginInfo", loginInfo);
             return "home/homePage";
         }
@@ -114,12 +147,12 @@ public class LoginController extends BaseController {
                 Vo = new permitVo();
                 Vo.setModuleValue(permit.getModuleValue());
                 for (Permit p : permits) {
-                    if(permit.getModuleValue().equals(p.getModuleValue())){
+                    if (permit.getModuleValue().equals(p.getModuleValue())) {
                         value = new valueVo();
                         value.setPermitValue(p.getPermitValue());
                         value.setFlag(0);
                         for (Allows allows : loginInfo.getAllows()) {
-                            if (allows.getModule().equals(permit.getModuleValue())&&
+                            if (allows.getModule().equals(permit.getModuleValue()) &&
                                     allows.getPermission().equals(permit.getPermitValue())) {
                                 value.setFlag(1);
                             }

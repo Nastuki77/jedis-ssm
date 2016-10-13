@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by Nastuki on 2016/10/9.
  */
-public class ClientContants {
+public class ClientConstants {
 
     public static  Map<String, String> getAppConfigs() {
 

@@ -7,6 +7,10 @@
 
     <display-name>jedis-demo</display-name>
 
+  <!--  <listener>
+        <description>applicationListener</description>
+        <listener-class>org.jedis.service.ApplicationListenerImpl</listener-class>
+    </listener>-->
 
     <!-- Encoding filter -->
     <filter>

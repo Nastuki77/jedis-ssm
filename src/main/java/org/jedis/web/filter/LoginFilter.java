@@ -23,7 +23,7 @@ public class LoginFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 
-        HttpServletRequest request = (HttpServletRequest) servletRequest;
+        /*HttpServletRequest request = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         HttpSession session = request.getSession(true);
         UserVo userVo = (UserVo) session.getAttribute("UserVo");
@@ -35,7 +35,7 @@ public class LoginFilter implements Filter {
         }
 
         filterChain.doFilter(request, response);
-        return;
+        return;*/
     }
 
     @Override
