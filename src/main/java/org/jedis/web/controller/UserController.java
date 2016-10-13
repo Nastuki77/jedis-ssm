@@ -16,7 +16,7 @@ import java.util.List;
  * Created by Nastuki on 2016/10/9.
  */
 @Controller
-@Module(name = "SSM", value = "paymentRequest")
+@Module(name = "SSM", value = "user")
 @RequestMapping("/user")
 public class UserController extends BaseController {
 

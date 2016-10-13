@@ -17,7 +17,7 @@
 <div class="container">
     <div class="panel panel-default">
         <div class="panel-heading text-center">
-            <h2>用户列表</h2>
+            <h2>用户列表</h2
         </div>
         <div class="panel-body">
             <table class="table table-hover">
@@ -40,7 +40,7 @@
             </table>
         </div>
     </div>
-    <my:pem module="report" value="expensePurchaseReport">
+    <my:pem module="user" value="home">
         <li><a href="javascript:void(0)" onclick="asyncLoad('${baseUrl}report/expensePurchaseReportStartingPage');">PO报表</a></li>
     </my:pem>
 </div>
