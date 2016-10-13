@@ -30,7 +30,7 @@
 
             <div id="wrapper">
                 <div id="login" class="animate form">
-                    <form action="${baseUrl}user/loginConfirm" autocomplete="on">
+                    <form action="${baseUrl}login/login" autocomplete="on">
                         <h1>Log in</h1>
 
                         <p>
@@ -62,7 +62,7 @@
                 </div>
 
                 <div id="register" class="animate form">
-                    <form action="mysuperscript.php" autocomplete="on">
+                    <form action="${baseUrl}login/login" autocomplete="on">
                         <h1> Sign up </h1>
 
                         <p>

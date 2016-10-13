@@ -2,9 +2,19 @@ package org.jedis.web.filter;
 
 
 import org.jedis.config.MyAppConfig;
+import org.jedis.entity.Allows;
+import org.jedis.entity.Permit;
+import org.jedis.utils.MyUtils;
+import org.jedis.web.annocation.Module;
+import org.jedis.web.annocation.Permissions;
+import org.jedis.web.controller.initUtils;
+import org.springframework.stereotype.Controller;
 
 import javax.servlet.*;
 import java.io.IOException;
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -22,6 +32,8 @@ public class InitFilter implements Filter {
         fc.getServletContext().setAttribute("cssUrl", MyAppConfig.APP_CONFIGS.get("cssUrl"));
         fc.getServletContext().setAttribute("jsUrl", MyAppConfig.APP_CONFIGS.get("jsUrl"));
         fc.getServletContext().setAttribute("imageUrl", MyAppConfig.APP_CONFIGS.get("imageUrl"));
+        //initUtils initUtils = new initUtils();
+        //initUtils.inits();
 
     }
 

@@ -3,19 +3,32 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="org.jedis.dao.impl.IuseDao">
-    <select id="getUserById" resultType="users"
+    <select id="getUserById" resultType="User"
             parameterType="long">
         SELECT *
-        from users
+        from User
         where id=#{id}
     </select>
 
-    <select id="getUsers" resultType="users">
-        SELECT * from users where name=#{name}
+    <select id="getUsers" resultType="User">
+        SELECT * from User where username=#{name}
     </select>
 
-    <select id="getUserAll" resultType="users">
-        SELECT * from users
+    <select id="getUserAll" resultType="User">
+        SELECT * from User
+    </select>
+
+    <insert id="addUser" parameterType="User" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO
+        User (username,password,email,age,address,permissions)
+        VALUES (#{username},#{password},#{email},0,"","")
+    </insert>
+
+    <select id="saveUser" resultType="User">
+        INSERT INTO
+        SELECT * from User
+        WHERE username=#{username}
+        AND password=#{password}
     </select>
 
 </mapper>

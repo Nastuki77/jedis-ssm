@@ -1,7 +1,7 @@
 package org.jedis.dao.impl;
 
 import org.apache.ibatis.annotations.Param;
-import org.jedis.entity.users;
+import org.jedis.entity.User;
 
 import java.util.List;
 
@@ -10,9 +10,13 @@ import java.util.List;
  */
 public interface IuseDao {
 
-    users getUserById(@Param("id")long id);
+    User getUserById(@Param("id")long id);
 
-    List<users> getUsers(@Param("name")String name);
+    List<User> getUsers(@Param("name")String name);
 
-    List<users> getUserAll();
+    List<User> getUserAll();
+
+    int addUser(@Param("username")String username,@Param("password")String password,@Param("email")String email);
+
+    User getUser(@Param("username")String username,@Param("password")String password);
 }

@@ -2,7 +2,7 @@ package org.jedis.web.interceptor;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
-import org.jedis.entity.users;
+import org.jedis.entity.User;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
@@ -33,7 +33,7 @@ public class loginInterceptor extends HandlerInterceptorAdapter {
             Object controller = method.getBean();
 
             //判断是否为登录接口实现类
-            if(controller instanceof users){
+            if(controller instanceof User){
                 Object user = request.getSession().getAttribute("user");
                 if(null == user){
                     logger.debug("---------未登录访问 跳回登陆页面---------");

@@ -17,10 +17,11 @@
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/demo.css"/>
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/style3.css"/>
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/animate-custom.css"/>
-
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/jquery-ui.min.css" />
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/validationEngine.jquery.css" />
+<link rel="stylesheet" type="text/css" href="${cssUrl}resources/NiceForm/niceforms-default.css"/>
+
 
 <script src="${jsUrl}resources/js/jquery-1.11.3.min.js"></script>
 <script src="${jsUrl}resources/js/jquery-ui.min.js"></script>
@@ -28,6 +29,7 @@
 <script src="${jsUrl}resources/js/button.js"></script>
 <script src="${jsUrl}resources/js/modal.js"></script>
 <script src="${jsUrl}resources/js/MyUtil.js"></script>
+<script src="${jsUrl}resources/NiceForm/niceforms.js"></script>
 
 <script src="http://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="http://cdn.bootcss.com/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>

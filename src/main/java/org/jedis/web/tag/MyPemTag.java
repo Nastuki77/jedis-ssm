@@ -11,7 +11,7 @@ package org.jedis.web.tag;
 import java.io.IOException;
 import java.io.Writer;
 import org.jedis.entity.Allows;
-import org.jedis.web.vo.LoginInfo;
+import org.jedis.web.vo.utilsVo.LoginInfo;
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.tagext.SimpleTagSupport;
 

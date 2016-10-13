@@ -1,4 +1,4 @@
-package org.jedis.web.vo;
+package org.jedis.web.vo.utilsVo;
 
 /**
  * Created by Nastuki on 2016/10/12.
@@ -17,16 +17,23 @@ import java.util.List;
  *
  */
 public class LoginInfo {
-    // 用户ID
+
+    /*
+    * ID
+    * */
     private Long id;
-    // 姓名
+
+    /*
+    * 名称
+    * */
     private String name;
-    // 所属部门
-    private Long depId;
-    /**
-     * 登录账号
-     */
-    private String userName;
+
+    /*
+    * email邮箱
+    * */
+    private String email;
+
+
     /**
      * 可允许访问的权限
      */
@@ -40,21 +47,14 @@ public class LoginInfo {
         return allows;
     }
 
-    public Long getDepId() {
-        return depId;
+    public String getEmail() {
+        return email;
     }
 
-    public void setDepId(Long depId) {
-        this.depId = depId;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
 
     public void setAllows(List<Allows> allows) {
         this.allows = allows;

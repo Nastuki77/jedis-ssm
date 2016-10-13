@@ -1,7 +1,7 @@
 package org.jedis.dao;
 
 import org.jedis.dao.impl.IuseDao;
-import org.jedis.entity.users;
+import org.jedis.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;
@@ -27,9 +27,9 @@ public class TestDao {
     @Test
     public void getUserById() throws Exception{
         Long id = 1L;
-        users user = iuseDao.getUserById(id);
+        User user = iuseDao.getUserById(id);
         if(user!=null){
-            System.out.print("id:"+user.getId()+"   name:"+user.getName());
+            System.out.print("id:"+user.getId()+"   name:"+user.getUsername());
         }else{
             System.out.print("------------------");
         }
@@ -39,8 +39,8 @@ public class TestDao {
     @Test
     public void getUsers() throws Exception{
         String name = "tom";
-        List<users> user = iuseDao.getUsers(name);
-        for(users u:user){
+        List<User> user = iuseDao.getUsers(name);
+        for(User u:user){
             System.out.println(u.toString());
         }
     }

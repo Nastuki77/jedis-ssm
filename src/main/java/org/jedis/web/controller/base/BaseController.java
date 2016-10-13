@@ -6,7 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 /**
  * Created by Nastuki on 2016/10/9.
  */
-public class BaseController extends IBaseController{
+public class BaseController {
 
+    @Autowired
+    protected IuserService userService;
 
 }

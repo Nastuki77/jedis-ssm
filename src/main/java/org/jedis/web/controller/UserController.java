@@ -1,6 +1,6 @@
 package org.jedis.web.controller;
 
-import org.jedis.entity.users;
+import org.jedis.entity.User;
 import org.jedis.web.annocation.Module;
 import org.jedis.web.annocation.Permissions;
 import org.jedis.web.controller.base.BaseController;
@@ -16,20 +16,29 @@ import java.util.List;
  * Created by Nastuki on 2016/10/9.
  */
 @Controller
-@Module(name = "SSM", value = "user")
+@Module(name = "用户", value = "user")
 @RequestMapping("/user")
 public class UserController extends BaseController {
 
     private final static Logger logger = LoggerFactory.getLogger(UserController.class);
 
-    @Permissions(name = "home", value = "home")
     @RequestMapping("/load")
     public String load(Model model){
 
-        List<users> user = this.getUserService().getUserAlll();
+        List<User> user = this.userService.getUserAlll();
 
         model.addAttribute("user",user);
         return "user/userPage";
+    }
+    @Permissions(name = "主页", value = "home")
+    @RequestMapping("/loginConfirm")
+    public String loginConfirm(Model model){
+        return "common/home";
+    }
+
+    @RequestMapping("/skipPage")
+    public String skipPage(Model model){
+        return "user/skipPage";
     }
 
 }
