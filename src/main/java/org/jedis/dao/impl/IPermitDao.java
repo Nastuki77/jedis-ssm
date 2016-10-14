@@ -18,6 +18,10 @@ public interface IPermitDao {
     int savePermit(@Param("moduleName")String moduleName,@Param("moduleValue")String moduleValue,
                    @Param("permitName")String permitName,@Param("permitValue")String permitValue);
 
+    List<Permit> queryPermit(@Param("moduleValue")String moduleValue, @Param("permitValue")String permitValue);
 
+   /* int updatePermit(@Param("id")Long id,@Param("moduleName")String moduleName,@Param("moduleValue")String moduleValue,
+                   @Param("permitName")String permitName,@Param("permitValue")String permitValue);*/
 
+    int updatePermit(@Param("Permit")Permit permit);
 }

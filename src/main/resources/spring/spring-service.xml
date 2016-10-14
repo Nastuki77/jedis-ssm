@@ -21,8 +21,5 @@
 
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
-    <bean id="LifeCycleBean" class="org.jedis.web.bean.LifeCycleBean"
-          init-method="init" />
-
 
 </beans>

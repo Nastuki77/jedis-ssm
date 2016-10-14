@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50624
 File Encoding         : 65001
 
-Date: 2016-10-13 18:27:24
+Date: 2016-10-14 18:26:39
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -26,11 +26,13 @@ CREATE TABLE `permit` (
   `permitName` varchar(30) DEFAULT NULL,
   `permitValue` varchar(30) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of permit
 -- ----------------------------
+INSERT INTO `permit` VALUES ('1', '用户', 'user', '主页', 'home');
+INSERT INTO `permit` VALUES ('9', '登陆', 'login', '登陆验证', 'loginConfirm');
 
 -- ----------------------------
 -- Table structure for `user`

@@ -10,10 +10,24 @@
     <select id="queryPermissionByUserId" resultType="Permit">
         SELECT * from Permit WHERE id IN #{ids}
     </select>
-    <insert id="savePermit" parameterType="Permit" useGeneratedKeys="true" keyProperty="id" >
+    <insert id="savePermit" parameterType="Permit" useGeneratedKeys="true" keyColumn="id">
         INSERT INTO
         Permit (moduleName,moduleValue,permitName,permitValue)
         VALUE(#{moduleName},#{moduleValue},#{permitName},#{permitValue})
     </insert>
+
+    <select id="queryPermit" resultType="Permit">
+        SELECT *
+        FROM Permit
+        WHERE moduleValue = #{moduleValue}
+        AND permitValue = #{permitValue}
+    </select>
+
+    <update id="updatePermit" parameterType="Permit">
+        update Permit
+        set moduleName = #{Permit.moduleName},moduleValue = #{Permit.moduleValue},
+        permitName = #{Permit.permitName},permitValue = #{Permit.permitValue}
+        where id = #{Permit.id}
+    </update>
 
 </mapper>

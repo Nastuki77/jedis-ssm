@@ -1,94 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SSM:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8451d56-c223-4ce4-b23c-3df2058c6787" name="Default" comment="jstl">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/button-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/button-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/checkbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/file.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/input-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/input-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/input.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/radio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/select-left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/select-right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/textarea-bl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/textarea-br.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/textarea-l-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/textarea-l-over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/textarea-r-off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/textarea-r-over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/textarea-tl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/textarea-tr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IPermitDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/entity/Permit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/service/base/BaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/service/base/impl/IBaseService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/utils/MyUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/initUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/permitVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/valueVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/utilsVo/ResultVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PermitDao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/homePage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/permit/permitPage.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/niceforms-default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/niceforms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/org/jedis/utils/AnalysisAnnotation.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/base/IBaseController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/jedis/entity/users.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/jedis/web/controller/base/IBaseController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/jedis/web/vo/LoginInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/entity/users.class" afterPath="" />
+    <list default="true" id="a8451d56-c223-4ce4-b23c-3df2058c6787" name="Default" comment="sql">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/base/IBaseController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/bean/LifeCycleBean.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/initController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/valueVo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/org/jedis/utils/clientContants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/utils/clientContants.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/config/MyAppConfig.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/config/MyAppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/dao/RedisDao.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/dao/RedisDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/dao/impl/IuseDao.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/dao/impl/IuseDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/service/impl/IuserService.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/service/impl/IuserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/service/userService.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/service/userService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/utils/clientContants.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/utils/clientContants.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/web/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/web/controller/base/BaseController.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/web/controller/base/BaseController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/web/filter/InitFilter.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/web/filter/InitFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/web/interceptor/loginInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/web/interceptor/loginInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/web/tag/MyPemTag.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/web/tag/MyPemTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/jedis/web/filter/LoginFilter.class" afterPath="$PROJECT_DIR$/target/classes/org/jedis/web/filter/LoginFilter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/config/MyAppConfig.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/config/MyAppConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/dao/RedisDao.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/dao/RedisDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/dao/impl/IuseDao.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/dao/impl/IuseDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/service/impl/IuserService.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/service/impl/IuserService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/service/userService.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/service/userService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/utils/clientContants.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/utils/clientContants.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/controller/UserController.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/controller/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/controller/base/BaseController.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/controller/base/BaseController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/controller/base/IBaseController.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/controller/base/IBaseController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/filter/InitFilter.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/filter/InitFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/interceptor/loginInterceptor.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/interceptor/loginInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/tag/MyPemTag.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/tag/MyPemTag.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/jedis/dao/TestDao.class" afterPath="$PROJECT_DIR$/target/test-classes/org/jedis/dao/TestDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/filter/LoginFilter.class" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/org/jedis/web/filter/LoginFilter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/config/MyAppConfig.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/config/MyAppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IuseDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IuseDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IPermitDao.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IPermitDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/service/impl/IuserService.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/service/impl/IuserService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/service/userService.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/service/userService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/utils/clientContants.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/utils/clientContants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/base/BaseController.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/base/BaseController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/filter/InitFilter.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/filter/InitFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/interceptor/loginInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/interceptor/loginInterceptor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/tag/MyPemTag.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/tag/MyPemTag.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/useDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/useDao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/url.properties" afterPath="$PROJECT_DIR$/src/main/resources/url.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/utils/MyUtils.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/utils/MyUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/permitVo.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/permitVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/PermitDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PermitDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/meta.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/meta.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/userPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/userPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/mp.tag" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/mp.tag" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/org/jedis/dao/TestDao.java" afterPath="$PROJECT_DIR$/src/test/java/org/jedis/dao/TestDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/permit/permitPage.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/permit/permitPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/niceforms.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/niceforms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/sql/test.sql" afterPath="$PROJECT_DIR$/src/main/webapp/resources/sql/test.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/useDao.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/useDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/url.properties" afterPath="$PROJECT_DIR$/target/classes/url.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/mapper/useDao.xml" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/mapper/useDao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-service.xml" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-service.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/url.properties" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/classes/url.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/jsp/common/meta.jsp" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/jsp/common/meta.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/jsp/login/login.jsp" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/jsp/login/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/tags/mp.tag" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/tags/mp.tag" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/entity/users.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/entity/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/LoginInfo.java" afterPath="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/utilsVo/LoginInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/jsp/user/userPage.jsp" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/jsp/user/userPage.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/jedis-demo-1.0-SNAPSHOT/WEB-INF/web.xml" />
     </list>
     <ignored path="jedis-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,40 +79,15 @@
     <favorites_list name="jedis-demo" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.447">
+    <splitter split-orientation="horizontal" split-proportion="0.54617256">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/UserController.java">
+          <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+                  <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
                   <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="initUtils.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/initUtils.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AnalysisAnnotation.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/org/jedis/utils/AnalysisAnnotation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#674#682#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -152,18 +95,72 @@
           <file leaf-file-name="meta.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/meta.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-21.7">
-                  <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="userPage.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/userPage.jsp">
+          <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-17.666666">
-                  <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="niceforms-default.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/NiceForm/niceforms-default.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="niceforms.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/NiceForm/niceforms.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+                  <folding>
+                    <element signature="n#!!doc" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PermitBean.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/bean/PermitBean.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test.sql" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/sql/test.sql">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.11679644">
+                  <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
                   <folding />
                 </state>
               </provider>
@@ -172,55 +169,21 @@
           <file leaf-file-name="permitPage.jsp" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/permit/permitPage.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.0">
-                  <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="22" selection-end-column="25" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.11991658">
-                  <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="InvocableHandlerMethod.class" pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.766666">
-                  <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PermitDao.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PermitDao.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.4">
-                  <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-                  <folding>
-                    <marker date="1476350053506" expanded="true" signature="269:294" placeholder="SELECT * fro... Permissions" />
-                    <marker date="1476350053506" expanded="true" signature="380:424" placeholder="SELECT * fro... Permissions" />
-                    <marker date="1476350053506" expanded="true" signature="477:624" placeholder="INSERT INTO Permit" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="IuseDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IuseDao.java">
+          <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/service/impl/IUserService.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="18" column="15" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="15" />
-                  <folding />
+                  <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+                  <folding>
+                    <element signature="imports" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -229,44 +192,68 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Permit.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/entity/Permit.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="IPermitDao.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IPermitDao.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/entity/User.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#367#368#0" expanded="false" />
+                    <element signature="e#392#393#0" expanded="false" />
+                    <element signature="e#426#427#0" expanded="false" />
+                    <element signature="e#454#455#0" expanded="false" />
+                    <element signature="e#485#486#0" expanded="false" />
+                    <element signature="e#511#512#0" expanded="false" />
+                    <element signature="e#550#551#0" expanded="false" />
+                    <element signature="e#580#581#0" expanded="false" />
+                    <element signature="e#615#616#0" expanded="false" />
+                    <element signature="e#646#647#0" expanded="false" />
+                    <element signature="e#694#695#0" expanded="false" />
+                    <element signature="e#734#735#0" expanded="false" />
+                    <element signature="e#769#770#0" expanded="false" />
+                    <element signature="e#800#801#0" expanded="false" />
+                    <element signature="e#848#849#0" expanded="false" />
+                    <element signature="e#888#889#0" expanded="false" />
+                    <element signature="e#920#921#0" expanded="false" />
+                    <element signature="e#948#949#0" expanded="false" />
+                    <element signature="e#990#991#0" expanded="false" />
+                    <element signature="e#1024#1025#0" expanded="false" />
+                    <element signature="e#1058#1059#0" expanded="false" />
+                    <element signature="e#1088#1089#0" expanded="false" />
+                    <element signature="e#1134#1135#0" expanded="false" />
+                    <element signature="e#1172#1173#0" expanded="false" />
+                    <element signature="e#1211#1212#0" expanded="false" />
+                    <element signature="e#1245#1246#0" expanded="false" />
+                    <element signature="e#1299#1300#0" expanded="false" />
+                    <element signature="e#1345#1346#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp">
+          <file leaf-file-name="PermitDao.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PermitDao.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.062432725">
-                  <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
-                  <folding />
+                <state vertical-scroll-proportion="0.42949408">
+                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="30" />
+                  <folding>
+                    <marker date="1476417359395" expanded="true" signature="269:288" placeholder="SELECT * fro... Permissions" />
+                    <marker date="1476417359395" expanded="true" signature="269:289" placeholder="SELECT * fro... Permit" />
+                    <marker date="1476417359395" expanded="true" signature="375:414" placeholder="SELECT * fro... Permit" />
+                    <marker date="1476417359395" expanded="true" signature="528:675" placeholder="INSERT INTO Permit" />
+                    <marker date="1476417359395" expanded="true" signature="749:861" placeholder="SELECT * FRO... Permit" />
+                    <marker date="1476417359395" expanded="true" signature="939:1145" placeholder="update Permi... " />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -298,15 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/filter/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/entity/Allows.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/tag/MyPemTag.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/mg.tag" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tld/fd.tld" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/interfaces/Module.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/interfaces/Permissions.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/interfaces/ValidLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/em/ValidPropagation.java" />
@@ -317,38 +295,47 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/homePage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/utilsVo/ResultVo.java" />
         <option value="$PROJECT_DIR$/src/test/java/org/jedis/dao/TestDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/service/impl/IuserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/service/userService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/base/BaseController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/entity/Permissions.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IPermissions.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/utils/MyUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IPermissionsDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/service/base/BaseService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/service/base/impl/IBaseService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/PermissionsDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/LoginInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/permitsValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/valueVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/permitVo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/permit/permitPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/entity/Permit.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/initController.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/filter/InitFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IPermitDao.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/PermitDao.xml" />
         <option value="$PROJECT_DIR$/target/classes/mapper/useDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/initUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IuseDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/useDao.xml" />
         <option value="$PROJECT_DIR$/src/test/java/org/jedis/utils/AnalysisAnnotation.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/meta.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/url.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/userPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/service/impl/IuserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/base/IBaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/bean/LifeCycleBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/sql/test.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/valueVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/utils/MyUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/service/impl/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IPermitDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/PermitDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/permitVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/permit/permitPage.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/meta.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/NiceForm/niceforms.js" />
+        <option value="$PROJECT_DIR$/src/main/java/org/jedis/web/bean/PermitBean.java" />
       </list>
     </option>
   </component>
@@ -436,7 +423,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -466,48 +453,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -754,6 +699,66 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jedis-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jedis-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NiceForm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jedis-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jedis-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -795,23 +800,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jedis" />
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jedis-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jedis-demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vo" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utilsVo" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -848,10 +867,6 @@
               <option name="myItemId" value="vo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="permitVo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -880,40 +895,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="filter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -977,7 +958,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bean" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1004,36 +989,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jedis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1103,7 +1058,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -1116,14 +1071,15 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="D:/gitHub/Nastuki77" />
+    <property name="SearchEverywhereHistoryKey" value="LifeCycleBean&#9;FILE&#9;file://D:/cql/jedis-demo/src/main/java/org/jedis/web/bean/LifeCycleBean.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cql\jedis-demo\src\main\webapp\resources\sql" />
       <recent name="D:\cql\jedis-demo\src\main\webapp\resources\NiceForm" />
       <recent name="D:\cql\jedis-demo\src\main\webapp\WEB-INF\jsp\user" />
       <recent name="D:\cql\jedis-demo\src\main\webapp\resources\images" />
       <recent name="D:\cql\jedis-demo\src\main\webapp\resources\css" />
-      <recent name="D:\cql\jedis-demo\src\main\webapp\WEB-INF\jsp\login" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.jedis.utils" />
@@ -1794,7 +1750,9 @@
       <workItem from="1476167190664" duration="637000" />
       <workItem from="1476265641051" duration="2440000" />
       <workItem from="1476323134125" duration="23242000" />
-      <workItem from="1476351501843" duration="2371000" />
+      <workItem from="1476351501843" duration="3001000" />
+      <workItem from="1476410461185" duration="13187000" />
+      <workItem from="1476440547697" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="jstl">
       <created>1476327621989</created>
@@ -1802,7 +1760,19 @@
       <option name="project" value="LOCAL" />
       <updated>1476327621989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="jstl  aa">
+      <created>1476353912565</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1476353912565</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sql">
+      <created>1476354477072</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1476354477072</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1838,7 +1808,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74373000" />
+    <option name="totallyTimeSpent" value="88470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="2064" height="1128" extended-state="6" />
@@ -1846,14 +1816,12 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42424244" sideWeight="0.502" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2055" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.177" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1863,12 +1831,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42424244" sideWeight="0.498" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4010101" sideWeight="0.498" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1885,7 +1855,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42424244" sideWeight="0.498" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4010101" sideWeight="0.498" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32929292" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1905,7 +1875,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jstl" />
-    <option name="LAST_COMMIT_MESSAGE" value="jstl" />
+    <MESSAGE value="jstl  aa" />
+    <MESSAGE value="sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1929,37 +1901,30 @@
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/initUtils.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/initUtils.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java</url>
-          <line>63</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java</url>
-          <line>95</line>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/jedis/web/bean/PermitBean.java</url>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="41" />
+      <option name="time" value="55" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1968,79 +1933,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.7">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/skipPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tld/fd.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.9">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tld/Nastuki.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/tag/LoginDateTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/tag/skipOrEvalTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/tag/skipPageOrEvalPageTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/annotation/RetentionPolicy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26277372">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/annocation/ValidLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/annocation/Permissions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30656934">
@@ -2053,7 +1945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41257367">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2061,7 +1952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15328467">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2084,7 +1974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="56" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2092,22 +1981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="77" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/service/impl/IuserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/service/userService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2129,9 +2002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2139,53 +2009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.96875">
           <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="58" />
-          <folding>
-            <element signature="e#468#476#0" expanded="true" />
-            <element signature="e#630#631#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/permitVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/valueVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/utils/MyUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="17" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/base/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/utils/ClientContants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2193,7 +2016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2201,9 +2023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2211,29 +2030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5199139">
           <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-          <folding>
-            <marker date="1476352620912" expanded="true" signature="300:349" placeholder="SELECT * fro... User" />
-            <marker date="1476352620912" expanded="true" signature="418:459" placeholder="SELECT * fro... User" />
-            <marker date="1476352620912" expanded="true" signature="530:548" placeholder="SELECT * fro... User" />
-            <marker date="1476352620912" expanded="true" signature="673:773" placeholder="INSERT INTO User" />
-            <marker date="1476352620912" expanded="true" signature="861:967" placeholder="INSERT INTO SELECT" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.49499443">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2241,7 +2037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27320126">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2253,36 +2048,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/initUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/entity/Permit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IuseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="15" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/jedis/utils/AnalysisAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/useDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45209903">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/url.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/userPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.474704">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="28" />
+        <state vertical-scroll-proportion="-4.366667">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
           <folding>
             <element signature="e#757#769#0" expanded="false" />
             <element signature="e#815#830#0" expanded="false" />
@@ -2292,116 +2108,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/jedis/utils/AnalysisAnnotation.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35166994">
+          <caret line="232" column="0" selection-start-line="232" selection-start-column="0" selection-end-line="232" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/base/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9666667">
+          <caret line="1181" column="0" selection-start-line="1181" selection-start-column="0" selection-end-line="1181" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.1.7.RELEASE/spring-aop-4.1.7.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.466666">
+          <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/reflect/AccessibleObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33274022">
+          <caret line="214" column="36" selection-start-line="214" selection-start-column="36" selection-end-line="214" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/utils/MyUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.5">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/entity/Permit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2189781">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#674#682#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/meta.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.7">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/useDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45209903">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
-            <marker date="1476352617099" expanded="true" signature="300:349" placeholder="SELECT * fro... User" />
-            <marker date="1476352617099" expanded="true" signature="418:459" placeholder="SELECT * fro... User" />
-            <marker date="1476352617099" expanded="true" signature="530:548" placeholder="SELECT * fro... User" />
-            <marker date="1476352617099" expanded="true" signature="660:792" placeholder="INSERT INTO USER" />
-            <marker date="1476352617099" expanded="true" signature="861:967" placeholder="INSERT INTO SELECT" />
+            <element signature="e#367#368#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
+            <element signature="e#454#455#0" expanded="false" />
+            <element signature="e#485#486#0" expanded="false" />
+            <element signature="e#511#512#0" expanded="false" />
+            <element signature="e#550#551#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
+            <element signature="e#615#616#0" expanded="false" />
+            <element signature="e#646#647#0" expanded="false" />
+            <element signature="e#694#695#0" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+            <element signature="e#769#770#0" expanded="false" />
+            <element signature="e#800#801#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#888#889#0" expanded="false" />
+            <element signature="e#920#921#0" expanded="false" />
+            <element signature="e#948#949#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
+            <element signature="e#1024#1025#0" expanded="false" />
+            <element signature="e#1058#1059#0" expanded="false" />
+            <element signature="e#1088#1089#0" expanded="false" />
+            <element signature="e#1134#1135#0" expanded="false" />
+            <element signature="e#1172#1173#0" expanded="false" />
+            <element signature="e#1211#1212#0" expanded="false" />
+            <element signature="e#1245#1246#0" expanded="false" />
+            <element signature="e#1299#1300#0" expanded="false" />
+            <element signature="e#1345#1346#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PermitDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.4">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <marker date="1476350053506" expanded="true" signature="269:294" placeholder="SELECT * fro... Permissions" />
-            <marker date="1476350053506" expanded="true" signature="380:424" placeholder="SELECT * fro... Permissions" />
-            <marker date="1476350053506" expanded="true" signature="477:624" placeholder="INSERT INTO Permit" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/url.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/permit/permitPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.0">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/user/userPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.666666">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding />
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/dao/impl/IPermitDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/vo/permitVo/permitVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="false" />
+            <element signature="e#356#357#0" expanded="false" />
+            <element signature="e#410#411#0" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+            <element signature="e#526#527#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#622#623#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#694#695#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#794#795#0" expanded="false" />
+            <element signature="e#831#832#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#916#917#0" expanded="false" />
+            <element signature="e#960#961#0" expanded="false" />
+            <element signature="e#992#993#0" expanded="false" />
+            <element signature="e#1019#1020#0" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
+            <element signature="e#1092#1093#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/service/impl/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.062432725">
-          <caret line="32" column="55" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/base/IBaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.766666">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.1970803">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/button.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/NiceForm/img/0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/NiceForm/niceforms-default.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/permit/permitPage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/common/meta.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.11991658">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PermitDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42949408">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <marker date="1476417359395" expanded="true" signature="269:288" placeholder="SELECT * fro... Permissions" />
+            <marker date="1476417359395" expanded="true" signature="269:289" placeholder="SELECT * fro... Permit" />
+            <marker date="1476417359395" expanded="true" signature="375:414" placeholder="SELECT * fro... Permit" />
+            <marker date="1476417359395" expanded="true" signature="528:675" placeholder="INSERT INTO Permit" />
+            <marker date="1476417359395" expanded="true" signature="749:861" placeholder="SELECT * FRO... Permit" />
+            <marker date="1476417359395" expanded="true" signature="939:1145" placeholder="update Permi... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/NiceForm/niceforms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jedis/web/bean/PermitBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/sql/test.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11679644">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

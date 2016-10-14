@@ -8,7 +8,6 @@ import org.jedis.web.annocation.Module;
 import org.jedis.web.annocation.Permissions;
 import org.jedis.web.controller.base.BaseController;
 import org.jedis.web.vo.permitVo.permitVo;
-import org.jedis.web.vo.permitVo.valueVo;
 import org.jedis.web.vo.utilsVo.LoginInfo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +15,6 @@ import org.springframework.util.DigestUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,6 +32,7 @@ public class LoginController extends BaseController {
         return "login/login";
     }
 
+    @Permissions(name = "登陆验证", value = "loginConfirm")
     @RequestMapping("/loginConfirm")
     public String loginConfirm(Model model) {
         return "common/home";
@@ -59,43 +58,12 @@ public class LoginController extends BaseController {
 
     }
 
-    public void init() {
-        System.out.println("权限配置初始化开始...");
-
-        List<Class> clazzs = MyUtils.getClasssFromPackage("org.jedis.web.controller");
-        System.out.println(clazzs.size());
-        List<Permit> permits = new ArrayList<Permit>();
-
-        for (Class c : clazzs) {
-            Class<?> clazz = null;
-            try {
-                clazz = Class.forName(c.getName());
-            } catch (ClassNotFoundException e) {
-                e.printStackTrace();
-            }
-            Method[] methods = clazz.getMethods();
-            Module module = clazz.getDeclaredAnnotation(Module.class);
-            if (null != module) {
-                for (Method method : methods) {
-                    if (method.isAnnotationPresent(Permissions.class)) {
-                        Permissions permissions = method.getDeclaredAnnotation(Permissions.class);
-                        System.out.print(permissions.name() + "  " + permissions.value() +
-                                "  " + module.name() + "  " + module.value());
-                        //this.userService.getPermitDao().savePermit(module.name(),module.value(),permissions.name(),permissions.value());
-                        this.userService.savePermit(module.name(), module.value(), permissions.name(), permissions.value());
-                    }
-                }
-            }
-        }
-
-    }
 
     @RequestMapping("/login")
-    public String login(HttpServletRequest request, Model model) {
+    public String login(HttpServletRequest request) {
 
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        int value = 0;
         List<User> user = this.userService.getUseDao().getUser(username, DigestUtils.md5DigestAsHex((password.trim()).getBytes()));
 
         if (user == null) {
@@ -127,6 +95,7 @@ public class LoginController extends BaseController {
             loginInfo.setName(user.get(0).getUsername());
             loginInfo.setEmail(user.get(0).getEmail());
             request.getSession().setAttribute("LoginInfo", loginInfo);
+
             return "home/homePage";
         }
 
@@ -140,35 +109,36 @@ public class LoginController extends BaseController {
         List<Permit> permits = this.userService.getPermitDao().queryAll();
         List<permitVo> permitVos = new ArrayList<permitVo>();
         permitVo Vo = null;
-        List<valueVo> values = new ArrayList<valueVo>();
-        valueVo value = null;
+        List<Permit> permitsList = new ArrayList<Permit>();
+        if (MyUtils.isNotEmpty(loginInfo)) {
+            for (Permit permit : permits) {
+                if (!permitsList.contains(permit)) {
+                    permitsList.add(permit);
+                }
+            }
+        }
         if (MyUtils.isNotEmpty(loginInfo)) {
             for (Permit permit : permits) {
                 Vo = new permitVo();
                 Vo.setModuleValue(permit.getModuleValue());
-                for (Permit p : permits) {
-                    if (permit.getModuleValue().equals(p.getModuleValue())) {
-                        value = new valueVo();
-                        value.setPermitValue(p.getPermitValue());
-                        value.setFlag(0);
-                        for (Allows allows : loginInfo.getAllows()) {
-                            if (allows.getModule().equals(permit.getModuleValue()) &&
-                                    allows.getPermission().equals(permit.getPermitValue())) {
-                                value.setFlag(1);
-                            }
-                        }
-                        values.add(value);
+                Vo.setModuleName(permit.getModuleName());
+                Vo.setPermitValue(permit.getPermitValue());
+                Vo.setPermitName(permit.getPermitName());
+                Vo.setFlag(0);
+                for (Allows allows : loginInfo.getAllows()) {
+                    if (allows.getModule().equals(permit.getModuleValue()) &&
+                            allows.getPermission().equals(permit.getPermitValue())) {
+                        Vo.setFlag(1);
                     }
                 }
-                Vo.setValueVos(values);
                 permitVos.add(Vo);
             }
         } else {
             return "login/login";
         }
 
-
-        model.addAttribute("permits", permitVos);
+        model.addAttribute("permits", permitsList);
+        model.addAttribute("permitVos", permitVos);
 
         return "permit/permitPage";
     }

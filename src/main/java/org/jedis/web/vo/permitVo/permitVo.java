@@ -9,7 +9,13 @@ public class permitVo {
 
     private String moduleValue;
 
-    private List<valueVo> valueVos;
+    private String moduleName;
+
+    private String permitValue;
+
+    private String permitName;
+
+    private Integer flag;
 
     public String getModuleValue() {
         return moduleValue;
@@ -19,11 +25,35 @@ public class permitVo {
         this.moduleValue = moduleValue;
     }
 
-    public List<valueVo> getValueVos() {
-        return valueVos;
+    public String getModuleName() {
+        return moduleName;
     }
 
-    public void setValueVos(List<valueVo> valueVos) {
-        this.valueVos = valueVos;
+    public void setModuleName(String moduleName) {
+        this.moduleName = moduleName;
+    }
+
+    public String getPermitValue() {
+        return permitValue;
+    }
+
+    public void setPermitValue(String permitValue) {
+        this.permitValue = permitValue;
+    }
+
+    public String getPermitName() {
+        return permitName;
+    }
+
+    public void setPermitName(String permitName) {
+        this.permitName = permitName;
+    }
+
+    public Integer getFlag() {
+        return flag;
+    }
+
+    public void setFlag(Integer flag) {
+        this.flag = flag;
     }
 }
