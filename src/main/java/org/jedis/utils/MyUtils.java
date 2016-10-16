@@ -41,11 +41,11 @@ public final class MyUtils {
                 String protocol = url.getProtocol();
 
                 if ("file".equals(protocol)) {
-                    System.out.println("Controller类型的扫描");
+                    //System.out.println("Controller类型的扫描");
                     String filePath = URLDecoder.decode(url.getFile(), "UTF-8");
                     findClassInPackageByFile(packageName, filePath, recursive, clazzs);
                 } else if ("jar".equals(protocol)) {
-                    System.out.println("jar类型的扫描");
+                    //System.out.println("jar类型的扫描");
                 }
             }
 

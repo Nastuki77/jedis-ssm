@@ -2,9 +2,10 @@ package org.jedis.web.controller;
 
 
 
-import org.jedis.mq.producer.queue.QueueSender;
-import org.jedis.mq.producer.topic.TopicSender;
+import org.jedis.web.mq.producer.queue.QueueSender;
+import org.jedis.web.mq.producer.topic.TopicSender;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -17,13 +18,19 @@ import javax.annotation.Resource;
  * @description controller测试
  */
 @Controller
-@RequestMapping("/activemq")
+@RequestMapping("/activeMQ")
 public class ActivemqController {
 	
 	@Resource
     QueueSender queueSender;
 	@Resource
     TopicSender topicSender;
+
+    @RequestMapping("/welcome")
+    public String welcome(Model model) {
+
+        return "mq/home";
+    }
 	
 	/**
 	 * 发送消息到队列

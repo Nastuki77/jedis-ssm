@@ -12,7 +12,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Login and Registration Form with HTML5 and CSS3"/>
 <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class"/>
-<meta name="author" content="Codrops"/>
+<meta name="author" content="Nastuki"/>
 <link rel="shortcut icon" href="../favicon.ico">
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/demo.css"/>
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/style3.css"/>
@@ -21,7 +21,7 @@
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/jquery-ui.min.css" />
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/validationEngine.jquery.css" />
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/NiceForm/niceforms-default.css"/>
-
+<link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/slider-menu.css">
 
 <script src="${jsUrl}resources/js/jquery-1.11.3.min.js"></script>
 <script src="${jsUrl}resources/js/jquery-ui.min.js"></script>

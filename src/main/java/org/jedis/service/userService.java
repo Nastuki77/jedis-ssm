@@ -11,11 +11,11 @@ import java.util.List;
 /**
  * Created by Nastuki on 2016/10/9.
  */
-@Service("UserService")
+@Service
 public class UserService extends BaseService implements IUserService {
 
     @Override
-    public List<User> getUserAlll() {
+    public List<User> getUserAll() {
         List<User> User = this.getUseDao().getUserAll();
 
         return User;

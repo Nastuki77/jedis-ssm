@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.jedis.dao.impl.IPermitDao">
+    <select id="queryAll" resultType="Permit">
+        SELECT * from Permit
+    </select>
+
+    <select id="queryPermissionByUserId" resultType="Permit">
+        SELECT * from Permit WHERE id IN #{ids}
+    </select>
+    <insert id="savePermit" parameterType="Permit" useGeneratedKeys="true" keyColumn="id">
+        INSERT INTO
+        Permit (moduleName,moduleValue,permitName,permitValue)
+        VALUE(#{moduleName},#{moduleValue},#{permitName},#{permitValue})
+    </insert>
+
+    <select id="queryPermit" resultType="Permit">
+        SELECT *
+        FROM Permit
+        WHERE moduleValue = #{moduleValue}
+        AND permitValue = #{permitValue}
+    </select>
+
+    <update id="updatePermit" parameterType="Permit">
+        update Permit
+        set moduleName = #{Permit.moduleName},moduleValue = #{Permit.moduleValue},
+        permitName = #{Permit.permitName},permitValue = #{Permit.permitValue}
+        where id = #{Permit.id}
+    </update>
+
+</mapper>

@@ -32,6 +32,18 @@ public class LoginController extends BaseController {
         return "login/login";
     }
 
+    @RequestMapping("/menuPage")
+    public String menuPage(Model model) {
+
+        return "common/menuPage";
+    }
+
+    @RequestMapping("/welcome")
+    public String welcome(Model model) {
+
+        return "mq/welcome";
+    }
+
     @Permissions(name = "登陆验证", value = "loginConfirm")
     @RequestMapping("/loginConfirm")
     public String loginConfirm(Model model) {
@@ -96,7 +108,7 @@ public class LoginController extends BaseController {
             loginInfo.setEmail(user.get(0).getEmail());
             request.getSession().setAttribute("LoginInfo", loginInfo);
 
-            return "home/homePage";
+            return "common/menu";
         }
 
     }

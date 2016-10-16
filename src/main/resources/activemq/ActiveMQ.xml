@@ -9,7 +9,7 @@
        http://activemq.apache.org/schema/core
        http://activemq.apache.org/schema/core/activemq-core.xsd http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="org.jedis.mq" />
+    <context:component-scan base-package="org.jedis.web.mq" />
 
     <mvc:annotation-driven />
 
@@ -49,21 +49,18 @@
     </bean>
 
     <!--Spring JmsTemplate 的消息生产者 end-->
-    <bean id="queueReceiver1" class="org.jedis.mq.consumer.queue.QueueReceiver1">
+    <bean id="queueReceiver1" class="org.jedis.web.mq.consumer.queue.QueueReceiver1">
         <!-- 这个connectionFactory对应的是我们定义的Spring提供的那个ConnectionFactory对象 -->
     </bean>
-    <bean id="queueReceiver2" class="org.jedis.mq.consumer.queue.QueueReceiver2">
+    <bean id="queueReceiver2" class="org.jedis.web.mq.consumer.queue.QueueReceiver2">
         <!-- 这个connectionFactory对应的是我们定义的Spring提供的那个ConnectionFactory对象 -->
     </bean>
-    <bean id="topicReceiver1" class="org.jedis.mq.consumer.topic.TopicReceiver1">
+    <bean id="topicReceiver1" class="org.jedis.web.mq.consumer.topic.TopicReceiver1">
         <!-- 这个connectionFactory对应的是我们定义的Spring提供的那个ConnectionFactory对象 -->
     </bean>
-    <bean id="topicReceiver2" class="org.jedis.mq.consumer.topic.TopicReceiver2">
+    <bean id="topicReceiver2" class="org.jedis.web.mq.consumer.topic.TopicReceiver2">
         <!-- 这个connectionFactory对应的是我们定义的Spring提供的那个ConnectionFactory对象 -->
     </bean>
-
-
-    <!-- 消息消费者 start-->
 
     <!-- 定义Queue监听器 -->
     <jms:listener-container destination-type="queue" container-type="default" connection-factory="connectionFactory"

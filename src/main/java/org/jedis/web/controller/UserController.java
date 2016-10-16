@@ -23,21 +23,22 @@ public class UserController extends BaseController {
     private final static Logger logger = LoggerFactory.getLogger(UserController.class);
 
     @RequestMapping("/load")
-    public String load(Model model){
+    public String load(Model model) {
 
-        List<User> user = this.userService.getUserAlll();
+        List<User> user = this.userService.getUserAll();
 
-        model.addAttribute("user",user);
-        return "user/userPage";
+        model.addAttribute("user", user);
+        return "common/menu";
     }
+
     @Permissions(name = "主页", value = "home")
-      @RequestMapping("/loginConfirm")
-      public String loginConfirm(Model model){
+    @RequestMapping("/loginConfirm")
+    public String loginConfirm(Model model) {
         return "common/home";
     }
 
     @RequestMapping("/skipPage")
-    public String skipPage(Model model){
+    public String skipPage(Model model) {
         return "user/skipPage";
     }
 

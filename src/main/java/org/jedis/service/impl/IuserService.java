@@ -19,7 +19,7 @@ public interface IUserService extends IBaseService {
 
 
     @Transactional
-    List<User> getUserAlll();
+    List<User> getUserAll();
 
     int savePermit(String moduleName,String moduleValue, String permitName,String permitValue);
 

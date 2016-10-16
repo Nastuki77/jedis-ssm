@@ -3,10 +3,6 @@ package org.jedis.web.tag;
 /**
  * Created by Nastuki on 2016/10/12.
  */
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by Fernflower decompiler)
-//
 
 import java.io.IOException;
 import java.io.Writer;

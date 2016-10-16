@@ -21,7 +21,7 @@
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/jquery-ui.min.css" />
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/validationEngine.jquery.css" />
 <link rel="stylesheet" type="text/css" href="${cssUrl}resources/NiceForm/niceforms-default.css"/>
-
+<link rel="stylesheet" type="text/css" href="${cssUrl}resources/css/slider-menu.css">
 
 <script src="${jsUrl}resources/js/jquery-1.11.3.min.js"></script>
 <script src="${jsUrl}resources/js/jquery-ui.min.js"></script>

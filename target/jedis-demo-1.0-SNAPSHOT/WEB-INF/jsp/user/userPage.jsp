@@ -17,7 +17,7 @@
 <div class="container">
     <div class="panel panel-default">
         <div class="panel-heading text-center">
-            <h2>用户列表</h2
+            <h2>用户列表</h2>
         </div>
         <div class="panel-body">
             <table class="table table-hover">
@@ -29,16 +29,19 @@
                 </tr>
                 </thead>
                 <tbody>
-                <c:forEach var="use" items="${user}" varStatus="st">
+                <c:forEach var="user" items="${user}" varStatus="st">
                     <tr>
                         <td>${st.count}</td>
-                        <td>${use.id}</td>
-                        <td>${use.name}</td>
+                        <td>${user.id}</td>
+                        <td>${user.username}</td>
                     </tr>
                 </c:forEach>
                 </tbody>
             </table>
         </div>
+        <a type="button" href="${baseUrl}login/load" class="btn btn-success btn-sm" >
+            <span class="glyphicon glyphicon-ok"></span>&nbsp;登陆
+        </a>
     </div>
     <my:pem module="user" value="home">
         <li><a href="javascript:void(0)" onclick="asyncLoad('${baseUrl}report/expensePurchaseReportStartingPage');">PO报表</a></li>

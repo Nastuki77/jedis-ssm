@@ -61,7 +61,7 @@ public class PermitBean implements InitializingBean {
     }
 
 
-    public void destory() {
+    public void destroy() {
         System.out.println("bean Init destory...");
     }
 

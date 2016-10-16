@@ -15,7 +15,6 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content=="IE=edge"/>
     <meta name="google" value="notranslate"/>
-
 </head>
 <body>
 
@@ -29,7 +28,6 @@
             <a href="http://startific.com">
                 <i class="fa fa-home fa-lg"></i>
                 <span class="nav-text">Home</span>
-
             </a>
         </li>
         <li class="has-subnav">
@@ -39,11 +37,9 @@
                             News
                         </span>
             </a>
-
         </li>
-
         <li>
-            <a href="#">
+            <a href="${baseUrl}login/welcome">
                 <i class="fa fa-desktop fa-lg"></i>
                         <span class="nav-text">
                             Technology
@@ -51,13 +47,12 @@
             </a>
         </li>
         <li class="has-subnav">
-            <a href="#">
+            <a href="${baseUrl}activeMQ/welcome">
                 <i class="fa fa-plane fa-lg"></i>
                         <span class="nav-text">
-                            Travel
+                            Active.MQ
                         </span>
             </a>
-
         </li>
 
         <li>
